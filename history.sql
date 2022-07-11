@@ -10,7 +10,7 @@ DESC student;
 /* 2022-05-26 13:30:29 [13 ms] */ 
 DESC student;
 /* 2022-05-26 13:31:49 [4 ms] */ 
-INSERT INTO student VALUES(1,"dev",1,"delhi");
+INSERT INTO student VALUES(1,"kartikay",1,"delhi");
 /* 2022-05-26 13:31:51 [22 ms] */ 
 DESC student;
 /* 2022-05-26 13:31:57 [15 ms] */ 
