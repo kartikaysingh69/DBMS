@@ -1,4 +1,4 @@
-use dev;
+use kartikay;
 select from student;
 update student set name='tarun' where ssid=6;
 commit;
