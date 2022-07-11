@@ -13,7 +13,7 @@ create table owns(driver_id varchar(10),regno varchar(10),primary key(driver_id,
 /* 2022-06-19 14:50:48 [13 ms] */ 
 create table participated(driver_id varchar(10),regno varchar(10),report_number int,damage_amount int,primary key(driver_id,regno,report_number),foreign key(driver_id) references person(driver_id),foreign key(regno) references car(regno),foreign key(report_number) references accident(report_number));
 /* 2022-06-19 14:53:10 [5 ms] */ 
-insert into person values('D192','dev','delhi');
+insert into person values('D192','kartikay','delhi');
 /* 2022-06-19 14:53:10 [3 ms] */ 
 insert into person values('D193','ritik','delhi');
 /* 2022-06-19 14:53:11 [3 ms] */ 
